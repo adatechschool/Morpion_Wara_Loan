@@ -1,8 +1,8 @@
 - bienvenue dans le jeu
 - demander le nom des joueurs ( garder en mémoire)
 - assigner les signes au joueur (x ou o)
-- attibuer à chaque case une valeur (A1 = a1 : A1 : nom; a1 valeur) 
-- par defaut le joueur 1 commence
+  - attibuer à chaque case une valeur (A1 = a1 : A1 : nom; a1 valeur) 
+  - par defaut le joueur 1 commence
 - partie commence:
     - clear le terminal
     - grille de départ

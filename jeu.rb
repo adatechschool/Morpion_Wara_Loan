@@ -4,14 +4,12 @@ require_relative "touche"
 
 class Jeu
 
-    attr_accessor :affichage
-
     def initialize
 
         system "clear"
         puts "Bienvenue dans le jeu de morpion de Loan et Wara"
-        sleep 1
-        system "clear"
+        #sleep 1
+        #system "clear"
 
         puts "Joueur 1, comment tu t'appelles ?"
         prenom1 = gets.chomp
@@ -30,8 +28,6 @@ class Jeu
         @affichage1 = Affichage.new
         puts "#{@joueur1.nom} = x"
         puts "#{@joueur2.nom} = o"
-
-    end
 
     def tour
         puts "#{@joueur1.nom}, à toi de jouer"
@@ -80,5 +76,3 @@ end
     end
 
 perform
-
-

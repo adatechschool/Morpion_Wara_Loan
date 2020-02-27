@@ -29,6 +29,8 @@ class Jeu
         puts "#{@joueur1.nom} = x"
         puts "#{@joueur2.nom} = o"
 
+    end 
+
     def tour
         puts "#{@joueur1.nom}, à toi de jouer"
         valide = false
@@ -63,16 +65,11 @@ class Jeu
         end
     end
 
+end 
 
-end
+jeu1 = Jeu.new
+jeu1.tour
+jeu1.tour
+jeu1.tour
+jeu1.tour
 
-    def perform
-
-        jeu1 = Jeu.new
-        jeu1.tour
-        jeu1.tour
-        jeu1.tour
-        jeu1.tour
-    end
-
-perform
